@@ -16,10 +16,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={montserrat.className}>
-       <Header />  
+    <html lang="fr" className={montserrat.className}>
+      
       <body>
-       
+      <Header />  
         {children}
       </body>
     </html>

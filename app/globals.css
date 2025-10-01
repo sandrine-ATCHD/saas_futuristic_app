@@ -20,7 +20,25 @@
 }
 
 body {
-  background-image: url('/images/image de fond.jpg');
+
+  
   color: var(--foreground);
   font-family: Montserrat;
+  margin: 0;
 }
+
+
+
+
+  .custom-shadow {
+    box-shadow:
+      0 -2px 40px rgba(187,155,255,0.15),
+      0 -2px 10px rgba(233,223,255,0.3);
+  }
+
+  .icone-card{
+    
+  }
+
+
+

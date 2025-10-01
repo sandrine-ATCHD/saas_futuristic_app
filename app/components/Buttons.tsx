@@ -1,4 +1,6 @@
 // components/Button.tsx
+
+'use client';
 import React from 'react';
 
 interface ButtonProps {
@@ -16,7 +18,7 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
   return (
     <button
-      className={`${bgColor} ${textColor} border ${borderColor} px-4 py-2 rounded-3xl`}
+      className={`${bgColor} ${textColor} border ${borderColor} px-4 py-2 rounded-3xl `}
     >
       {label}
     </button>
