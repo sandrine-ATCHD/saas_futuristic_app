@@ -9,19 +9,18 @@ interface IconeProps {
 const Icone: React.FC<IconeProps> = ({ src, shadowColor }) => {
   return (
     <div
-      className="icone-wrapper "
+      className="rounded-full flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 md:w-[50px] md:h-[50px]"
       style={{
-        width: 50,
-        height: 50,
-        borderRadius: '50%',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        boxShadow: ` 0px 0px 36.45px 0px  ${shadowColor}`,
-
+        boxShadow: shadowColor ? `0px 0px 36.45px 0px ${shadowColor}` : 'none',
       }}
     >
-      <Image src={src} width={50} height={50}  alt="icone" />
+      <Image 
+        src={src} 
+        width={50} 
+        height={50} 
+        alt="icone" 
+        className="w-full h-full object-contain"
+      />
     </div>
   )
 }
