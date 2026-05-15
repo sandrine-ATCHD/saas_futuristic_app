@@ -7,7 +7,7 @@ const Logo = () => {
       <div className='max-w-7xl mx-auto'>
         
         <p className='text-center text-xs text-white font-thin mb-6 sm:text-sm sm:mb-8 md:text-[15px] md:mb-10 lg:mb-12'>
-        Trusted by teams at over 1,000 of the world&apos;s leading organizations
+        Trusted by teams at over 1,000 of the worlds leading organizations
         </p>
 
         {/* Logos Container */}
